@@ -1,0 +1,147 @@
+.navbar{
+    margin-top: 2px;
+    background: #dadbf0;
+    height: 450px;
+    
+}
+.my-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+    background: rgb(0,0,0);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    color: white;
+    padding: 20px;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 8vw;
+    font-size: 20px;
+}
+.nav-left img{
+    width: 30px;
+    height: 30px;
+    
+}
+
+.nav-right p{
+    align-items: center;
+    margin-right: 20vw;
+    border: 2px solid rgba(227, 224, 224, 0.39);
+    padding: 5px;
+    border-radius: 4px;
+    background: rgb(26,26,26);
+    font-size: 23px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 38px;
+}
+.header input{
+    margin-top: 15px;
+    padding: 10px;
+    width: 650px;
+    height: 40px;
+    border-radius: 4px;
+    border-color: rgb(220,218,238);
+}
+input::placeholder {
+    color: rgb(178,179,181);
+}
+.blocks{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 70px;
+ }
+.block-blocks b{
+    border-bottom: 2px solid rgb(229,235,242);
+    display: flex;
+    align-items: center;
+}
+.block-blocks{
+    width: 450px;
+    height: 130px;
+    border-radius: 10px;
+    margin: 10px;
+    background: rgb(244,246,248);
+    padding: 20px;
+    border: 2px solid rgb(229,235,242);
+    text-align: left;
+    margin-bottom: 28px;
+}
+.block-blocks b{
+    font-size: 20px;
+}
+.block-blocks b,.block-blocks p{
+padding:5px;
+}
+
+
+@media(max-width:750px){
+    .nav-left{
+        font-size: 15px;
+    }
+    .nav-left img{
+        width: 20px;
+        height: 20px;
+        
+    }
+    .nav-right p{
+        margin-right: 15vw;
+        padding: 4px;
+        font-size: 17px;
+    }
+    .header{
+        font-size: 25px;
+        margin-top: 60px;
+
+    }
+    .header input{
+        padding: 5px;
+        width: 450px;
+        height: 30px;
+
+    }
+    .navbar{
+    height: 350px;
+}
+}
+@media(max-width:510px){
+    .nav-left{
+        font-size: 12px;
+    }
+    .nav-left img{
+        width: 15px;
+        height: 15px;
+        
+    }
+    .nav-right p{
+        margin-right: 12vw;
+        padding: 3px;
+        font-size: 13px;
+    }
+    .header{
+        font-size: 18px;
+        margin-top: 40px;
+
+    }
+    .header input{
+        padding: 4px;
+        width: 300px;
+        height: 25px;
+
+    }
+    .navbar{
+        height: 250px;
+        
+    }
+}
